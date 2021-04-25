@@ -16,6 +16,7 @@ public class SaveMoney {
         CommercialBank bank3 = new CommercialBank();
         bank3.savedMoney = amount;
         bank3.year = 8.236;
+        //gfgfghg
         bank3.setInterestRate(0.035);
         double interest3 = bank3.computerInterest();
         System. out.printf ("两个银行利息相差%f元\n",interest2- interest1);
