@@ -19,7 +19,7 @@ class WeekWorker extends Employee{
 }
 class DayWorker extends Employee{
     public double earnings(){
-        return 24*300;
+        return 365*150;
     }
 }
 class Company{
